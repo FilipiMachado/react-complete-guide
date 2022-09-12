@@ -4,6 +4,7 @@ import Backdrop from './Backdrop';
 import Modal from './Modal';
 
 function Todo(props) {
+    //console.log(props)
   const [showModal, setShowModal] = useState();
 
   function showModalHandler() {
