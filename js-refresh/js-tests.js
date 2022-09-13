@@ -23,3 +23,41 @@ console.log('The square of 4 is ' + multiply(4) + '.') */
 
 console.log(person) */
 
+// Classes
+/* class Human {
+    constructor() {
+        this.gender = 'male'
+    }
+
+    printGender() {
+        console.log(this.gender)
+    }
+}
+
+class Person extends Human {
+    constructor() {
+        super()
+        this.name = 'Fil'
+    }
+
+    printMyName() {
+        console.log(this.name)
+    }
+}
+
+const person = new Person()
+person.printMyName()
+person.printGender() */
+
+class Multiply {
+    constructor() {
+        //this.number = 0
+    }
+    
+    printMulti(value) {
+        return console.log(value * value)
+    }
+}
+
+const multiply = new Multiply()
+multiply.printMulti(10)
