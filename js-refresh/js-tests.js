@@ -136,3 +136,16 @@ person.name = 'Zuero'
 
 console.log(person)
 console.log(secondPerson) */
+
+// Array Functions
+/* const numbers = [1, 2, 3, 4]
+
+/* const doubleNumArray = numbers.map((e) => {
+    return e * 2
+})
+
+console.log(doubleNumArray) */
+
+/* const newNumbers = numbers.filter((e) => {
+    console.log(e == 1)
+}) */ 
