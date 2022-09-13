@@ -107,3 +107,32 @@ console.log(newPerson) */
 }
 
 console.log(filter(1, 2, 3)) */
+
+// Destructuring
+/* // --Array
+[a, b] = ['Hello', 'Fil']
+console.log(a) // Hello
+console.log(b) // Fil
+
+// --Object
+{newName} = {newName: 'Fil', age: 20}
+console.log(newName) */
+
+// Reference && Primite Type
+
+/* const number = 1
+const num2 = number
+console.log(num2) */
+
+/* const person = {
+    name: 'Fil',
+};
+
+const secondPerson = {
+    ...person,
+}
+
+person.name = 'Zuero'
+
+console.log(person)
+console.log(secondPerson) */
