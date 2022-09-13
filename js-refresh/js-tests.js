@@ -14,6 +14,12 @@ console.log(myLetName) */
 }
 
 myFunction("Fil", 20) */
-const multiply = (num) => num * num
+/* const multiply = (num) => num * num
 
-console.log('The square of 4 is ' + multiply(4) + '.')
+console.log('The square of 4 is ' + multiply(4) + '.') */
+
+// Exports & Imports (modules)
+/* import person from './person'
+
+console.log(person) */
+
