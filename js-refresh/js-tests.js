@@ -49,7 +49,7 @@ const person = new Person()
 person.printMyName()
 person.printGender() */
 
-class Multiply {
+/* class Multiply {
     constructor() {
         //this.number = 0
     }
@@ -60,4 +60,27 @@ class Multiply {
 }
 
 const multiply = new Multiply()
-multiply.printMulti(10)
+multiply.printMulti(10) */
+
+// Classes, Properties & Methods
+/* class Human {
+    gender = 'male'
+
+    printGender = () => {
+        console.log(this.gender)
+    }
+}
+
+class Person extends Human {
+    myName = 'Fil'
+
+    printMyName = () => {
+        console.log(this.myName)
+    }
+}
+
+const person = new Person()
+person.printGender()
+person.printGender() */
+
+// Spread && Rest Operators
