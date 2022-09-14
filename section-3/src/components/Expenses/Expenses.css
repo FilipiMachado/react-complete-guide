@@ -1,0 +1,11 @@
+.expenses-title-wrapper {
+    
+}
+.expenses-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 1em;
+    font-size: 2rem;
+    font-weight: 600;
+}
