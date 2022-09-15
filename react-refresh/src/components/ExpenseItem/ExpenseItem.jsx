@@ -8,8 +8,8 @@ import "./ExpenseItem.css";
 function ExpenseItem(props) {
   const [newTitle, setNewTitle] = useState(props.title)
 
-  const clickHandler = (e) => {
-    setNewTitle(e.target.value)
+  const clickHandler = () => {
+    setNewTitle('New Title')
   }
 
   return (
@@ -19,11 +19,11 @@ function ExpenseItem(props) {
         <h2>{newTitle}</h2>
         <div className="expense-item__price">${props.amount}</div>
       </div>
-      <input type="text"
+      {/* <input type="text"
              id="new-title"
              name="new-title"
              onChange={clickHandler}
-             value={newTitle}/>
+             value={newTitle}/> */}
       <button onClick={clickHandler}>Change Title</button>
     </Card>
   );
